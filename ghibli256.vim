@@ -21,7 +21,7 @@ highlight Comment         ctermfg=243
 highlight Constant        ctermfg=114
 
 "Any variable name
-highlight Identifier      ctermfg=230 cterm=NONE
+highlight Identifier      ctermfg=230    cterm=NONE
 
 "Any Statement
 highlight Statement       ctermfg=215
@@ -42,26 +42,26 @@ highlight Underlined      ctermfg=230    cterm=underline
 highlight Ignore          ctermfg=106 
 
 "Any erroneous construct
-highlight Error           ctermfg=015    ctermbg=161                
+highlight Error           ctermfg=015    ctermbg=124      cterm=bold
 highlight ErrorMsg        NONE
 highlight link ErrorMsg   Error                                    
 
 "Anything that needs extra attention; mostly the keywords TODO, FIXME, and XXX
-highlight Todo           ctermfg=016    ctermbg=015
+highlight Todo            ctermfg=251    ctermbg=235      cterm=bold
 
 "Overall text and background colours
-highlight Normal         ctermfg=252    ctermbg=235
-highlight Cursor         ctermbg=244
+highlight Normal          ctermfg=252    ctermbg=235
+highlight Cursor          ctermbg=244
 
-highlight MatchParen     ctermbg=11
+highlight MatchParen      ctermbg=11
 
 "Line numbers
-highlight LineNr         None
-highlight link LineNr    Comment
+highlight LineNr          None
+highlight link LineNr     Comment
 
 highlight NonText NONE
-highlight link NonText   Special
+highlight link NonText    Special
 
-highlight Title          ctermfg=015    ctermbg=241
+highlight Title           ctermfg=015    ctermbg=240
 
-highlight Visual         ctermbg=243
+highlight Visual          ctermbg=243
