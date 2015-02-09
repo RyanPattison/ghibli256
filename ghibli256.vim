@@ -53,7 +53,7 @@ highlight Todo            ctermfg=251    ctermbg=235      cterm=bold
 highlight Normal          ctermfg=252    ctermbg=235
 highlight Cursor          ctermbg=244
 
-highlight MatchParen      ctermfg=252    ctermbg=235      cterm=bold,reverse
+highlight MatchParen      ctermfg=142    ctermbg=235      cterm=bold,underline
 
 "Line numbers
 highlight LineNr          None
