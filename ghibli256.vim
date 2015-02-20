@@ -45,6 +45,7 @@ highlight Ignore          ctermfg=106
 highlight Error           ctermfg=015    ctermbg=124      cterm=bold
 highlight ErrorMsg        NONE
 highlight link ErrorMsg   Error                                    
+highlight SpellLocal      ctermbg=166    cterm=bold
 
 "Anything that needs extra attention; mostly the keywords TODO, FIXME, and XXX
 highlight Todo            ctermfg=251    ctermbg=235      cterm=bold
@@ -54,6 +55,7 @@ highlight Normal          ctermfg=252    ctermbg=235
 highlight Cursor          ctermbg=244
 
 highlight MatchParen      ctermfg=142    ctermbg=235      cterm=bold,underline
+" 142 [2]
 
 "Line numbers
 highlight LineNr          None
@@ -65,3 +67,4 @@ highlight link NonText    Special
 highlight Title           ctermfg=015    ctermbg=240
 
 highlight Visual          ctermbg=243
+
