@@ -1,6 +1,7 @@
 ghibli256
 =========
 A 256 colour scheme for vim.
+add the following line to your .vimrc: `let &colorcolumn=join(range(81,999),",")`
 
 Samples
 =======
