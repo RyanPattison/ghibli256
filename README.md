@@ -1,7 +1,8 @@
 ghibli256
 =========
-A 256 colour scheme for vim.
-add the following line to your .vimrc: `let &colorcolumn=join(range(81,999),",")`
+A 256 colour scheme for vim. To change the background color after 80 columns, add the following line to your .vimrc:
+
+    let &colorcolumn=join(range(81,999),",")
 
 Samples
 =======
